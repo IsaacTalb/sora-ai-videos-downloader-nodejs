@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video URL Extractor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Video URL Extractor</h1>
+    <p>Paste the video page URL below and click "Extract Video URL":</p>
+    <input type="text" id="pageUrl" placeholder="https://sora.com/g/gen_..." size="50">
+    <button onclick="extractVideoUrl()">Extract Video URL</button>
+
+    <div id="result">
+        <p><strong>Video URL:</strong> <span id="videoUrl"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
